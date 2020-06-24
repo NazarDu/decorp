@@ -1,0 +1,12 @@
+.gBtn {
+    background-color: #ccc;
+    color: #fff;
+    line-height: 20px;
+    font-family: 'Roboto', sans-serif;
+    width: 92px;
+    height: 36px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}

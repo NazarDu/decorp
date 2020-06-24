@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin Page for BeautyHandmade</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="message"></div>
+    <h3>Введіть ID товару (на англійській, наприклад: cardWedding.
+        Кожне ID має бути індивідуальне)</h3>
+    <input placeholder="ID" type="text" class="input_ID">
+    <h3>Введіть назву товару</h3>
+    <input placeholder="Назва товару" type="text" class="input_Name">
+    <h3>Введіть опис товару</h3>
+    <textarea placeholder="Опис товару" type="text" class="input_Description"></textarea>
+    <h3>Введіть ціну товару</h3>
+    <input placeholder="Ціна товару" type="text" class="input_Price">
+    <h3>Введіть URL код фото товару 1</h3>
+    <input placeholder="Фото товару 1" type="text" class="input_Photo">
+    <h3>Введіть URL код фото товару 2 (якщо у вас більше немає фото не 
+        заповнюйте цю бланку)</h3>
+    <input placeholder="Фото товару 2" type="text" class="input_Photo">
+    <h3>Введіть URL код фото товару 3 (якщо у вас більше немає фото не 
+        заповнюйте цю бланку)</h3>
+    <input placeholder="Фото товару 3" type="text" class="input_Photo">
+    
+
+    <br> <br>
+    <input type="checkbox" name="Продовжити" id="next_Step"><span>Продовжити</span> <br> <br>
+    <button class="gBtn send">Надіслати</button>
+    <div class="iframe-wrap" style="width:92px;height:36px;overflow:hidden"></div>
+    
+    <!-- JavaScript -->
+    <!-- MVC -->
+    <script src="js/MVC/view.js"></script>
+    <script src="js/MVC/modal.js"></script>
+    <script src="js/MVC/controller.js"></script>
+    <script src="js/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,229 @@
+@media (min-width: 768px) and (max-width: 1200px) {
+    /* SECTION HEADER */
+    .main__nameSite {
+        white-space: normal;
+    }
+    
+    /* SECTION WEDDING */
+    .s-wedding {
+        background-size: auto;
+    }
+
+    /* SECTION GO TO BLOG */
+    .s-to_blog__photo {
+        display: none;
+    }
+
+    .text__title {
+        text-align: center;
+    }
+
+    .s-to_blog__line {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text__paragraph {
+        text-align: center
+    }
+
+    .text__link {
+        padding-top: 15px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+    /* SECTION HEADER */
+    .header {
+        background: url('../img/header-bg.png') top center;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .main__nameSite {
+        white-space: normal;
+    }
+    
+    .goToShop {
+        display: none;
+    }
+
+    .fa-shopping-bag {
+        display: block;
+    }
+
+    .header__content {
+        margin-top: 25vh;
+        width: 550px;
+    }
+
+    .heading__settings {
+        display: none;
+    }
+
+    .s-shop__heading > .heading__line {
+        display: none;
+    }
+
+    .heading__title {
+        padding-bottom: 30px;
+        font-size: 24px;
+    }
+
+    /* Slider */
+    .rudo_buttons {
+        margin-top: 0px;
+    }
+
+    .rudo_prev > i {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    
+    /* Collage */
+    .collage { 
+        width: 400px;
+    }
+    
+    /* SECTION WEDDING */
+    .s-wedding {
+        background-size: auto;
+    }
+
+    /* SECTION GO TO BLOG */
+    .s-to_blog__photo {
+        display: none;
+    }
+
+    .text__title {
+        text-align: center;
+    }
+
+    .s-to_blog__line {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text__paragraph {
+        text-align: center;
+        width: 400px;
+    }
+
+    .text__link {
+        padding-top: 15px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) and (min-width: 0px) {  
+    /* SECTION HEADER */
+    .header {
+        background: url('../img/header-bg.png') top center;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .main__nameSite {
+        white-space: normal;
+    }
+
+    .goToShop {
+        display: none;
+    }
+
+    .fa-shopping-bag {
+        display: block;
+    }
+    
+    .header__content {
+        margin-top: 22vh;
+        width: auto;
+    }
+
+    .content__heading {
+        margin-top: -12vh;
+    }
+
+    .heading__settings {
+        display: none;
+    }
+
+    /* SECTION SHOP */
+    .s-shop__heading > .heading__line {
+        display: none;
+    }
+
+    .heading__title {
+        padding-bottom: 30px;
+        font-size: 27px;
+    }
+
+    /* Slider */
+    .rudo_buttons {
+        margin-top: 45px;
+        justify-content: center;
+    }
+
+    .rudo_prev > i {
+        font-size: 20px;
+        margin-top: 45px;
+        margin-left: 15px;
+    }
+
+    /* Modal Window */
+    .shop__modal__window {
+        left: 0;
+        z-index: 9999;
+        display: none;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    
+    /* Collage */
+    .collage { 
+        width: 270px;
+    }
+    
+    /* SECTION WEDDING */
+    .s-wedding {
+        background-size: auto;
+    }
+
+    .s-wedding__heading {
+        font-size: 23px;
+        width: 300px
+    }
+
+    /* SECTION GO TO BLOG */
+    .s-to_blog__photo {
+        display: none;
+    }
+
+    .text__title {
+        text-align: center;
+    }
+
+    .s-to_blog__line {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text__paragraph {
+        text-align: center;
+        width: 300px;        
+    }
+
+    .text__link {
+        padding-top: 15px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) and (min-width: 400px) {
+    /* Slider */
+    .rudo_buttons {
+        margin-top: 0px;
+    }
+}  
